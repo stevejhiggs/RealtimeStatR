@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeStatR.ViewStats", "RealtimeStatR.ViewStats\RealtimeStatR.ViewStats.csproj", "{3D093DFE-323E-40BB-8746-7505687747EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B8797940-F9BE-4D44-B5EB-B53843BC595B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtimeStatR.EventReceiver", "RealtimeStatR.EventReceiver\RealtimeStatR.EventReceiver.csproj", "{1C63837B-D73B-4C1D-B9AE-C9518944E028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{4A2DA13B-F213-4EE5-A6D4-E6EB07FC74E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEventGenerator", "ClientExamples\ConsoleEventGenerator\ConsoleEventGenerator.csproj", "{3E75AEC6-FA00-43CB-8AFC-658B12A57299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D093DFE-323E-40BB-8746-7505687747EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D093DFE-323E-40BB-8746-7505687747EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D093DFE-323E-40BB-8746-7505687747EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D093DFE-323E-40BB-8746-7505687747EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C63837B-D73B-4C1D-B9AE-C9518944E028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C63837B-D73B-4C1D-B9AE-C9518944E028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C63837B-D73B-4C1D-B9AE-C9518944E028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C63837B-D73B-4C1D-B9AE-C9518944E028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E75AEC6-FA00-43CB-8AFC-658B12A57299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E75AEC6-FA00-43CB-8AFC-658B12A57299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E75AEC6-FA00-43CB-8AFC-658B12A57299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E75AEC6-FA00-43CB-8AFC-658B12A57299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E75AEC6-FA00-43CB-8AFC-658B12A57299} = {4A2DA13B-F213-4EE5-A6D4-E6EB07FC74E9}
+	EndGlobalSection
+EndGlobal
